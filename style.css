@@ -1,0 +1,24 @@
+/* ----------------- Main Body Styling  ----------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Nunito&display=swap');
+
+:root {
+    --pb: hsl(0. 100%, 50%);
+    --sb: hsl(60. 100%, 50%);
+    --tb: hsl(120. 100%, 50%);
+    --m: 'Merriweather';
+    --n: 'Nunito';
+}
+
+#main {
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+        'b b h b b',
+        'b f f f b',
+        'b f f f b',
+        'b i i i b',
+        'b i i i b',
+        'b l l l b';
+}
