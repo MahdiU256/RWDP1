@@ -3,8 +3,8 @@
 
 :root {
     --pb: red;
-    --sb: green;
-    --tb: blue;
+    --sb: lightgreen;
+    --tb: lightblue;
     --m: 'Merriweather';
     --n: 'Nunito';
 }
@@ -17,7 +17,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: var(--n, sans-serif);
-    font-size: 2.5vh;
+    font-size: 1rem;
 }
 
 /* ----------------- Header Styling  ----------------- */
@@ -26,23 +26,29 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /* background-color: var(--pb); */
 }
 #heading {
     font-family: var(--m, serif);
-    /* background-color: var(--sb); */
     margin: auto;
 }
 #subtitle {
-    /* background-color: var(--tb); */
     margin: auto;
 }
 
 /* ----------------- Figure Styling  ----------------- */
-/* #img-div {
-    
-} */
-
+#img-div {
+    width: 100%;
+    margin: auto;
+    background-color: var(--pb);
+}
 #image {
-    width: 90%;
+    width: inherit;
+    margin: inherit;
+    background-color: var(--sb);
+}
+#img-caption {
+    width: inherit;
+    margin: inherit;
+    text-align: center;
+    background-color: var(--tb);
 }
