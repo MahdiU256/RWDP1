@@ -39,16 +39,20 @@
 #img-div {
     width: 100%;
     margin: auto;
-    background-color: var(--pb);
+    margin-top: 1rem;
+    border: 1px solid black;
+    border-radius: 0px;
+    /* background-color: var(--pb); */
 }
 #image {
     width: inherit;
-    margin: inherit;
-    background-color: var(--sb);
+    margin: auto;
+    border-radius: inherit;
+    /* background-color: var(--sb); */
 }
 #img-caption {
     width: inherit;
-    margin: inherit;
+    margin: auto;
     text-align: center;
-    background-color: var(--tb);
+    /* background-color: var(--tb); */
 }
