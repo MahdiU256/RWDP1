@@ -7,9 +7,7 @@
     --n: 'Nunito';
 }
 
-html {
-    background-color: var(--b);
-}
+html {background-color: var(--b);}
 
 #main {
     width: 90%;
@@ -39,12 +37,8 @@ html {
     justify-content: space-between;
     align-items: center;
 }
-#heading {
-    margin: auto;
-}
-#subtitle {
-    margin: auto;
-}
+#heading {margin: auto;}
+#subtitle {margin: auto;}
 
 /* ----------------- Figure Styling  ----------------- */
 #img-div {
@@ -74,9 +68,7 @@ html {
 }
 
 /* ----------------- Info Styling  ----------------- */
-#tribute-info {
-    text-align: left;
-}
+#tribute-info {text-align: left;}
 
 /* ----------------- Footer Styling  ----------------- */
 #link, #link-active, #link:hover, #link:visited {
