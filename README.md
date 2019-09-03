@@ -2,6 +2,8 @@
 
 ## fCC - Responsive Web Design -> Project 1 -> Tribute Page
 
+Note: This project is my submission for the freeCodeCamp project named above.
+
 > __<u>Objective:</u>__ Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
 <br><br>
 > Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
