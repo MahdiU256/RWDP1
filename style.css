@@ -17,7 +17,15 @@
     justify-content: space-between;
     align-items: center;
     font-family: var(--n, sans-serif);
-    font-size: 1rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.heading {
+    font-family: var(--m, serif);
+    font-size: 2rem;
+    text-decoration: underline;
 }
 
 /* ----------------- Header Styling  ----------------- */
@@ -28,7 +36,6 @@
     align-items: center;
 }
 #heading {
-    font-family: var(--m, serif);
     margin: auto;
 }
 #subtitle {
