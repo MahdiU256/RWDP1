@@ -23,8 +23,9 @@
 }
 
 .heading {
-    font-family: var(--m, serif);
+    font-family: var(--m, serif); 
     font-size: 2rem;
+    text-align: center !important;
     text-decoration: underline;
 }
 
@@ -70,4 +71,9 @@
     border-width: 0px 2px 2px 2px;
     text-align: center;
     /* background-color: var(--tb); */
+}
+
+/* ----------------- Info Styling  ----------------- */
+#tribute-info {
+    text-align: left;
 }
