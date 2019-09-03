@@ -25,3 +25,13 @@
 #heading {
     font-family: var(--m, serif);
 }
+
+
+/* ----------------- Figure Styling  ----------------- */
+#img-div {
+    grid-area: 2/2/3/5;
+}
+
+#image {
+    width: 90%;
+}
